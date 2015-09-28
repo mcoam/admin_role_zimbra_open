@@ -12,8 +12,8 @@
 zcs_domain_right.sh ansible.dev admin2@ansible.dev
 ```
 When:
-Domain: ansible.dev 
-New admin: admin2@ansible.dev
+* Domain: ansible.dev 
+* Account admin: admin2@ansible.dev
 
 
 
