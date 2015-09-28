@@ -3,11 +3,8 @@
 # $2 email
 zmprov="/opt/zimbra/bin/zmprov"
 file="/var/tmp/zcs_config_value"
-log="/var/tmp/zcs_config_value.log"
 
-echo -e ""
 echo -e "Setting admin account ($2) ...."
-echo -e ""
 
 cat <<EOF > $file
 
@@ -40,7 +37,6 @@ cat <<EOF > $file
 EOF
 
 $zmprov < $file 1> /dev/null
+rm -rf $file
 
-echo -e ""
 echo -e "The new admin account ($2) is ready"
-echo -e ""
