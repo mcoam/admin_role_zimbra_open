@@ -3,7 +3,7 @@
 ### Configuration
 
 * Copy script in "/opt/zimbra/bin"
-* Setting executable permissions: chmox +x /opt/zimbra/bin/zcs_domain_right.sh
+* Setting executable permissions: chmod +x /opt/zimbra/bin/zcs_domain_right.sh
 
 ### Use
 * Login to zimbra user
